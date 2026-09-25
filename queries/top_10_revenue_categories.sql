@@ -1,0 +1,11 @@
+-- TODO: 
+-- This query will return a table with the top 10 revenue categories
+-- in English, the number of orders and their total revenue. 
+-- It will have different columns:
+--      Category, that will contain the top 10 revenue categories;
+--      Num_order, with the total amount of orders of each category;
+--      Revenue, with the total revenue of each category.
+
+-- HINT: 
+-- All orders should have a delivered status and the Category and actual delivery date should be not null.
+-- For simplicity, if there are orders with multiple product categories, consider the full order's payment_value in the summation of revenue of each category
